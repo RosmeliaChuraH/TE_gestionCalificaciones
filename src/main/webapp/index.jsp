@@ -25,7 +25,8 @@
             </div>
         </div>
         <h1 align="center">Registro de Calificaciones</h1>
-        <form action="MainServlet" method="GET">
+        <div align="center">
+            <form action="MainServlet" method="GET">
             <input type="hidden" name="op" value="nuevo">
             <button type="submit">Nuevo</button>
         </form>
@@ -69,6 +70,8 @@
                 }
             %>
         </table>
+        </div>
+        
     </body>
 </html>
 
